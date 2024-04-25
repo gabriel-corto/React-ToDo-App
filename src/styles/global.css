@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+:root {
+  --gray-100:#f2f2f2;
+  --gray-200:#d9d9d9;
+  --gray-300:#858585;
+  --gray-400:#333333;
+  --gray-500:#262626;
+  --gray-600:#1a1a1a;
+  --gray-700:#121214;
+  --green: #0ba72d;
+}
+body {
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  background: var(--gray-600);
+  color: var(--gray-100);
+}
+button {
+  cursor: pointer;
+}
